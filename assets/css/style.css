@@ -136,10 +136,27 @@ a:hover{
     padding: 20px;
     max-width: 600px;
     box-shadow: 0 0 15px #b5a28f;
-    
+    height: 50px;
+    width: 400px;
+
 }
+
+
 .section3 {
-    padding: 45px;
+    padding: 55px;
+}
+.gauche{
+    display: column;
+    justify-content: space-between;
+    /* height: 50px;
+    width: 400px; */
+}
+.droite{
+    display: flex;
+    height:50px ;
+    width: 400px;
+    padding: 40px;
+    justify-content: space-betwee;
 }
 .card p{
     font-weight:bold ;
@@ -365,6 +382,12 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
+}
+.image1{
+    display:inline-block;
+ 
+    border-radius: 10px;
 }
 .image1 img{
     flex: 0 0 50%;
@@ -373,6 +396,9 @@ button{
 }
 .image1 p{
     font-size: 15px;
+    display: flex;
+    justify-content:left;
+    
 }
 .image2 img{
     flex: 0 0 50%;
@@ -382,7 +408,7 @@ button{
 }
 .image2 p{
     font-size: 15px;
-    
+
 }
 .bouton{
     border: 2px solid #b5a28f;
