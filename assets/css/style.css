@@ -1,0 +1,355 @@
+body{
+    margin: 45px;
+    background-color: black;
+    color: white;
+}
+h1{
+        font-style: italic;
+        color: #b5a28f;
+        display: flex;
+        justify-content:center ;
+
+}
+.nav{
+    background-color:#b5a28f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px ;
+    }
+.nav h1{
+    font-size: 30px;
+    color: black;
+}
+
+.nav h1 span{
+    color: #530e0e;
+    
+}
+.nav ul li{
+    display: inline;
+    justify-content:space-between;
+    padding: 10px;
+    
+}
+.nav ul li a{
+    font-style: none;
+    color:black;
+    text-decoration: none;
+
+    
+}
+a:hover{
+    border:1px solid black;
+    border-radius: 10px;
+    background-color:white;
+    padding: 10px;
+}
+.propos{
+    display: flex;
+    flex-direction: column;
+}
+.propos h1{
+    color: #b5a28f;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.parent{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    
+    padding: 35px;
+    height: 100vh;
+    
+}
+.leftsection{
+    
+        flex: 0 0 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    
+}
+.leftsection p{
+     flex: 0 0 50%;
+     display: flex;
+     flex-direction: column;
+     gap: 14px;
+
+     font-size: 25px;
+}
+.rightsection img{
+    width:70vh;
+    height:100vh;
+    flex: 100 0 50%;
+    position: relative;
+    top: -170px;
+    object-fit: contain;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+    
+}
+.section2 h1{
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    color: #b5a28f;
+    padding: 0px;
+}
+.cartes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.carte{
+ border: 2px solid #b5a28f ;
+ border-radius: 15px;
+ padding: 20px;
+ max-width: 400px;
+ box-shadow: 0 0 15px #b5a28f;
+}
+.carte h2{
+    color: #b5a28f;
+    font-weight: bold;
+    font-size: 30px;
+}
+.carte p{
+    font-weight:bold ;
+    font-size: 20px;
+}
+.cards{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.card{
+    border: 2px solid #b5a28f ;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 15px #b5a28f;
+    
+}
+.section3 {
+    padding: 45px;
+}
+.card p{
+    font-weight:bold ;
+    font-size: 20px;
+}
+.section4{
+padding: 45px;
+
+}
+.section-skils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 50%;
+    
+}
+.skill {
+    border: 2px solid #b5a28f ;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 15px #b5a28f;
+}
+.skill p{
+    font-weight: bold;
+    font-size: larger;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+.contact h2{
+    font-weight: bold;
+    font-style: italic;
+    color: #b5a28f;
+    text-decoration: underline;
+    padding: 45px;
+}
+.contact ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 45px;
+}
+.contact ul li{
+    list-style: none;
+    border: 2px solid #b5a28f;
+    border-radius: 15px;
+    padding:20px ;
+    background-color: #b5a28f;
+    width: 200px;
+    height: 30px;
+    font-size: 35px;
+    }
+
+
+.contact ul li  a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+}
+
+.timeline{
+    flex-grow: 1;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-percent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bar-percent{
+    background-color: #faefef;
+    border-radius: 12px;
+    width: 100%;
+    height: 25px;
+    position: relative;
+}
+.pourcent{
+    background-color: #b5a28f;
+    width: 60%;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+}
+.text-pourcent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.percent{
+    background-color: #b5a28f;
+    width: 90%;
+    height: 25px;
+    border-radius: 12px;
+}
+
+.texte-percent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.bar-pourcent{
+    height: 25px;
+    width: 100%;
+    background-color: #faefef;
+    border-radius: 12px;
+}
+.pourcent-js{
+    background-color:#b5a28f;
+    width: 30%;
+    height: 25px;
+    border-radius: 12px;
+}
+.section6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section6 h2{
+    color: #b5a28f;
+    text-decoration: underline;
+}   
+.details{
+    display: flex;
+    flex-direction: row;
+    background-color: #b5a28f;
+    border-radius: 12px;
+    justify-content: center;
+    
+
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    align-items: center;
+    align-content: center;
+    
+}
+.left ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+}
+.right{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.right p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.left h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+input{
+    border-radius:5px;
+    border: none;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    border:none;
+    border-radius: 5px;
+    height:30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;}
+
+textarea:focus{
+    outline: none;
+}
+
+
+button{
+    font-weight: bold;
+    border: 2px solid #b5a28f;
+    border-radius: 12px;
+    width: 100px;
+    padding:10px;
+}
+.footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+}
+
