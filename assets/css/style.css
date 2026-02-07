@@ -2,12 +2,14 @@ body{
     margin: 45px;
     background-color: black;
     color: white;
+    
 }
 h1{
         font-style: italic;
         color: #b5a28f;
         display: flex;
         justify-content:center ;
+        flex-wrap: wrap;
 
 }
 .nav{
@@ -17,10 +19,12 @@ h1{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px ;
+    flex-wrap: wrap;
     }
 .nav h1{
     font-size: 30px;
     color: black;
+
 }
 
 .nav h1 span{
@@ -31,6 +35,7 @@ h1{
     display: inline;
     justify-content:space-between;
     padding: 10px;
+    flex-wrap: wrap;
     
 }
 .nav ul li a{
@@ -49,6 +54,7 @@ a:hover{
 .propos{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .propos h1{
     color: #b5a28f;
@@ -60,7 +66,7 @@ a:hover{
     display: flex;
     flex-direction:row ;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
     padding: 35px;
     height: 100vh;
     
@@ -70,6 +76,7 @@ a:hover{
         flex: 0 0 50%;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         gap: 14px;
     
 }
@@ -77,6 +84,7 @@ a:hover{
      flex: 0 0 50%;
      display: flex;
      flex-direction: column;
+     flex-wrap: wrap;
      gap: 14px;
 
      font-size: 25px;
@@ -88,17 +96,20 @@ a:hover{
     position: relative;
     top: -170px;
     object-fit: contain;
+    display: flex;
+    flex-wrap: wrap;
 }
 .section2{
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
     gap: 30px;
     
 }
 .section2 h1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-size:40px;
     color: #b5a28f;
     padding: 0px;
@@ -107,6 +118,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .carte{
  border: 2px solid #b5a28f ;
@@ -128,6 +140,7 @@ a:hover{
      display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 .card{
@@ -148,6 +161,7 @@ a:hover{
 .gauche{
     display: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* height: 50px;
     width: 400px; */
 }
@@ -157,6 +171,7 @@ a:hover{
     width: 400px;
     padding: 40px;
     justify-content: space-betwee;
+    flex-wrap: wrap;
 }
 .card p{
     font-weight:bold ;
@@ -170,12 +185,14 @@ padding: 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .skills{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     flex: 0 0 50%;
     
 }
@@ -193,6 +210,7 @@ padding: 45px;
 .section5{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .contact h2{
     font-weight: bold;
@@ -205,6 +223,7 @@ padding: 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 45px;
 }
 .contact ul li{
@@ -239,6 +258,7 @@ padding: 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .bar-percent{
     background-color: #faefef;
@@ -260,6 +280,7 @@ padding: 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .percent{
     background-color: #b5a28f;
@@ -272,6 +293,7 @@ padding: 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .bar-pourcent{
@@ -290,6 +312,7 @@ padding: 45px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px;
 }
 .section6 h2{
@@ -302,6 +325,7 @@ padding: 45px;
 .details{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: #b5a28f;
     border-radius: 12px;
 
@@ -312,6 +336,7 @@ padding: 45px;
 .left{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     flex: 0 0 50%;
     align-items: center;
     align-content: center;
@@ -320,6 +345,7 @@ padding: 45px;
 .left ul li{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
     
@@ -331,6 +357,7 @@ padding: 45px;
     align-items: center;
     align-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .right p{
     font-weight: bold;
@@ -371,6 +398,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: 20px;
 }
 .realisations{
@@ -381,12 +409,13 @@ button{
 .images{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+
+    justify-content: space-between;
     
 }
 .image1{
     display:inline-block;
- 
+    flex-wrap: wrap;
     border-radius: 10px;
 }
 .image1 img{
@@ -397,13 +426,14 @@ button{
 .image1 p{
     font-size: 15px;
     display: flex;
-    justify-content:left;
     
 }
 .image2 img{
     flex: 0 0 50%;
     height:500px;
     width: 450px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .image2 p{
