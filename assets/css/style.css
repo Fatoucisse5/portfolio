@@ -19,7 +19,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px ;
-    flex-wrap: wrap;
+    
     }
 .nav h1{
     font-size: 30px;
@@ -54,7 +54,7 @@ a:hover{
 .propos{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+
 }
 .propos h1{
     color: #b5a28f;
@@ -96,6 +96,7 @@ a:hover{
     top: -170px;
     object-fit: contain;
     display: flex;
+
     
 }
 .section2{
@@ -139,7 +140,7 @@ a:hover{
      display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
 
 }
 .card{
@@ -160,7 +161,7 @@ a:hover{
 .gauche{
     display: column;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
     /* height: 50px;
     width: 400px; */
 }
@@ -170,7 +171,7 @@ a:hover{
     width: 400px;
     padding: 40px;
     justify-content: space-betwee;
-    flex-wrap: wrap;
+    
 }
 .card p{
     font-weight:bold ;
@@ -310,7 +311,7 @@ padding: 45px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
     padding: 20px;
 }
 .section6 h2{
@@ -333,7 +334,7 @@ padding: 45px;
 .left{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
     flex: 0 0 50%;
     align-items: center;
     align-content: center;
@@ -354,7 +355,7 @@ padding: 45px;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 .right p{
     font-weight: bold;
@@ -400,7 +401,7 @@ button{
 .realisations{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
     padding: 45px;
 }
 .images{
@@ -412,7 +413,7 @@ button{
 }
 .image1{
     display:inline-block;
-    flex-wrap: wrap;
+    
     border-radius: 10px;
 }
 .image1 img{
@@ -427,7 +428,7 @@ button{
 }
 .image2{
     display:inline-block;
-    flex-wrap: wrap;
+    
     border-radius: 10px;
 
 }
